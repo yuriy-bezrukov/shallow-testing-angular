@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'shallow-testing-angular';
+
+  onColorCalc(rgb: string) {
+    this.title = `new color ${rgb}`;
+  }
 }

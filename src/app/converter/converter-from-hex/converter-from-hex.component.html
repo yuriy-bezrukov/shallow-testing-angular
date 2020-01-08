@@ -1,0 +1,4 @@
+<input class="input-hex" type="text" [(ngModel)]="hex" placeholder="hex">
+<input class="input-rgb" type="text" [(ngModel)]="rgb" placeholder="rgb">
+<button class="btn-clear" (click)="clear()">Clear</button>
+<button class="btn-calc" (click)="calc()" *ngIf="!loading">Calculate</button>
